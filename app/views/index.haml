@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title Sinatra MVC Sample Netodev
+    %link(rel="stylesheet" href="stylesheets/bulma.min.css")
+    %link(rel="stilesheet" href="//cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css")
+  %body
+    %div.container
+      %h1.title=@post
+      %p
+        Welcome to my website made with Sinatra + HAML + Bulma (MVC)
+      %div.box
+        %article.media
+          .media-left
+            %figure.image.is-64x64
+              %img{:alt => "Image", :src => "https://bulma.io/images/placeholders/128x128.png"}/
+          .media-content
+            .content
+              %p
+                %strong Ernesto Valenzuela Vargas
+                %small @neto_dev
+                %br/
+                Hola mi nombre es Ernesto Valenzuela, soy apasionado a las tecnologías y todo lo referente con diseño y desarrollo, me especialicé en desarrollo Frontend y Backend, pero eso no me impidió adquirir amplio conocimiento en Diseño UX/UI. Tengo un conjunto de habilidades diversas que me permite trabajar en múltiples áreas de mi campo, tanto en la parte de diseño como la de desarrollo.
+            %nav.level.is-mobile
+              .level-left
+                %a.button.is-dark{href: "https://netov.dev", target: "_blank", style: "margin-right: 15px"} Website
+                %a.button.is-link{href: "https://twitter.com/neto_dev", target: "_blank"} Twitter
