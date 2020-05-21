@@ -1,7 +1,7 @@
-class PostsController < ApplicationController
+class UsersController < ApplicationController
   # Ruta Post la clase hereda de application así que ya no tenemos que indicar el path de vistas y public
-  get '/posts' do
-    @post = "Hola desde posts utilizando el mismo template"
+  get '/users' do
+    @user = User.first
     haml :'index'
   end
 end

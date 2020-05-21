@@ -6,7 +6,7 @@
     %link(rel="stilesheet" href="//cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css")
   %body
     %div.container
-      %h1.title=@post
+      %h1.title Hola mi nombre #{ @user ? @user.first_name : "Ernesto Valenzuela"}
       %p
         Welcome to my website made with Sinatra + HAML + Bulma (MVC)
       %div.box

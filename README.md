@@ -10,6 +10,12 @@ bundle install
 bundle
 ```
 
+Crear base de datos
+
+```
+rake db:migrate
+```
+
 Ejecutar proyecto
 
 ``` 

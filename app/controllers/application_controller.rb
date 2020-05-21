@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
 
   # Consultamos nuestro modelo y lo enviamos a la vista
   get '/' do
-    @post = Post.hello_world
+    @user = User.first
     haml :'index'
   end
 
