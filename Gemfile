@@ -8,7 +8,7 @@ gem "sinatra"
 gem 'shotgun'
 gem 'require_all'
 gem 'haml'
-gem 'activerecord', '6.0.3.1'
+gem 'activerecord', '6.0.3.5'
 gem 'sinatra-activerecord'
 gem 'logger'
 # Gema para controlador de bases de datos
